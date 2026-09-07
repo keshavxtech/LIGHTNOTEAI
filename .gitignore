@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / secrets
+.env
+
+# Generated storage
+storage/uploads/*
+storage/outputs/*
+storage/jobs/*
+
+# Keep storage folder structure
+!storage/uploads/.gitkeep
+!storage/outputs/.gitkeep
+!storage/jobs/.gitkeep
+
+# Local ML model
+*.pt
+
+# OS / editor
+.DS_Store
+.vscode/
